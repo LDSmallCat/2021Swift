@@ -8,15 +8,23 @@
 import UIKit
 
 class BaseViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        //view.backgroundColor = UIColor.random
+        view.backgroundColor = UIColor.white
+        configUI()
+        configLayout()
     }
-
 }
 
+//MARK: 添加子视图，子视图 布局
 extension BaseViewController {
+    @objc func configUI() { }
+    @objc func configLayout() { }
+}
+//MARK: 左上角 返回按钮点击事件
+extension BaseViewController {
+    
     @objc func backButtonClick() {
         self.navigationController?.popViewController(animated: true)
     }

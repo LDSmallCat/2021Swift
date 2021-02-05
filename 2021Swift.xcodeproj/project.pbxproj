@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		805EA0E67A79D568002E151B /* Pods_2021Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D175403485EF251D8F362E /* Pods_2021Swift.framework */; };
 		D21EAB4225CA2CB3001733EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EAB4125CA2CB3001733EF /* AppDelegate.swift */; };
 		D21EAB4425CA2CB3001733EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EAB4325CA2CB3001733EF /* SceneDelegate.swift */; };
 		D21EAB4625CA2CB3001733EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EAB4525CA2CB3001733EF /* ViewController.swift */; };
@@ -22,10 +23,20 @@
 		D21EAB9925CA3E75001733EF /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EAB9825CA3E75001733EF /* VideoViewController.swift */; };
 		D21EAB9C25CA3F41001733EF /* BaseTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EAB9B25CA3F41001733EF /* BaseTabBar.swift */; };
 		D21EABA325CA4177001733EF /* UIBarButtonItemExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EABA225CA4177001733EF /* UIBarButtonItemExtension.swift */; };
+		D28FEF3F25CCD66C00BB05D5 /* HomeSectionOneCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FEF3E25CCD66C00BB05D5 /* HomeSectionOneCollectionReusableView.swift */; };
+		D28FF03225CD13DA00BB05D5 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FF03125CD13DA00BB05D5 /* IntExtension.swift */; };
 		D29B15D125CA8BE2000B409C /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29B15D025CA8BE2000B409C /* UIColorExtension.swift */; };
+		D2CB305C25CBC9BB002FCA29 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CB305B25CBC9BB002FCA29 /* BaseCollectionViewCell.swift */; };
+		D2CB306525CBD6C5002FCA29 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CB306425CBD6C5002FCA29 /* HomeCollectionViewCell.swift */; };
+		D2CB306825CBDA0C002FCA29 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CB306725CBDA0C002FCA29 /* Global.swift */; };
+		D2CB306C25CBDF7B002FCA29 /* BaseCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CB306B25CBDF7B002FCA29 /* BaseCollectionReusableView.swift */; };
+		D2CB307E25CBDFEE002FCA29 /* HomeCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CB307D25CBDFEE002FCA29 /* HomeCollectionReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43E54BD13686B3EB0CC25885 /* Pods-2021Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2021Swift.release.xcconfig"; path = "Target Support Files/Pods-2021Swift/Pods-2021Swift.release.xcconfig"; sourceTree = "<group>"; };
+		6EAE23CE4669C9FF3C6CE80F /* Pods-2021Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2021Swift.debug.xcconfig"; path = "Target Support Files/Pods-2021Swift/Pods-2021Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		88D175403485EF251D8F362E /* Pods_2021Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_2021Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D21EAB3E25CA2CB3001733EF /* 2021Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2021Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D21EAB4125CA2CB3001733EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D21EAB4325CA2CB3001733EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +54,15 @@
 		D21EAB9825CA3E75001733EF /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		D21EAB9B25CA3F41001733EF /* BaseTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBar.swift; sourceTree = "<group>"; };
 		D21EABA225CA4177001733EF /* UIBarButtonItemExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBarButtonItemExtension.swift; sourceTree = "<group>"; };
+		D28FEF3E25CCD66C00BB05D5 /* HomeSectionOneCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSectionOneCollectionReusableView.swift; sourceTree = "<group>"; };
+		D28FF03125CD13DA00BB05D5 /* IntExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
 		D29B15D025CA8BE2000B409C /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		D2CB305B25CBC9BB002FCA29 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		D2CB305E25CBCB15002FCA29 /* 2021Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2021Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		D2CB306425CBD6C5002FCA29 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		D2CB306725CBDA0C002FCA29 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		D2CB306B25CBDF7B002FCA29 /* BaseCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionReusableView.swift; sourceTree = "<group>"; };
+		D2CB307D25CBDFEE002FCA29 /* HomeCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,17 +70,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				805EA0E67A79D568002E151B /* Pods_2021Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4030C78606411181998429AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EAE23CE4669C9FF3C6CE80F /* Pods-2021Swift.debug.xcconfig */,
+				43E54BD13686B3EB0CC25885 /* Pods-2021Swift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D21EAB3525CA2CB3001733EF = {
 			isa = PBXGroup;
 			children = (
 				D21EAB4025CA2CB3001733EF /* 2021Swift */,
 				D21EAB3F25CA2CB3001733EF /* Products */,
+				4030C78606411181998429AD /* Pods */,
+				DA3F29987F171F7A170C8A54 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,7 +160,9 @@
 		D21EAB5C25CA2D54001733EF /* V */ = {
 			isa = PBXGroup;
 			children = (
+				D2CB305B25CBC9BB002FCA29 /* BaseCollectionViewCell.swift */,
 				D21EAB9B25CA3F41001733EF /* BaseTabBar.swift */,
+				D2CB306B25CBDF7B002FCA29 /* BaseCollectionReusableView.swift */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -139,6 +172,7 @@
 			children = (
 				D21EABA225CA4177001733EF /* UIBarButtonItemExtension.swift */,
 				D29B15D025CA8BE2000B409C /* UIColorExtension.swift */,
+				D28FF03125CD13DA00BB05D5 /* IntExtension.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -146,9 +180,11 @@
 		D21EAB6325CA2E2C001733EF /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				D2CB306725CBDA0C002FCA29 /* Global.swift */,
 				D21EAB4725CA2CB3001733EF /* Main.storyboard */,
 				D21EAB4C25CA2CB4001733EF /* LaunchScreen.storyboard */,
 				D21EAB4F25CA2CB4001733EF /* Info.plist */,
+				D2CB305E25CBCB15002FCA29 /* 2021Swift-Bridging-Header.h */,
 			);
 			name = Other;
 			sourceTree = "<group>";
@@ -156,7 +192,9 @@
 		D21EAB8A25CA3D00001733EF /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				D21EAB8E25CA3E5C001733EF /* HomeViewController.swift */,
+				D2CB305A25CBC995002FCA29 /* C */,
+				D2CB305925CBC990002FCA29 /* V */,
+				D2CB305825CBC98A002FCA29 /* M */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -185,6 +223,39 @@
 			path = Video;
 			sourceTree = "<group>";
 		};
+		D2CB305825CBC98A002FCA29 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		D2CB305925CBC990002FCA29 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				D2CB306425CBD6C5002FCA29 /* HomeCollectionViewCell.swift */,
+				D2CB307D25CBDFEE002FCA29 /* HomeCollectionReusableView.swift */,
+				D28FEF3E25CCD66C00BB05D5 /* HomeSectionOneCollectionReusableView.swift */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		D2CB305A25CBC995002FCA29 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				D21EAB8E25CA3E5C001733EF /* HomeViewController.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		DA3F29987F171F7A170C8A54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88D175403485EF251D8F362E /* Pods_2021Swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -192,9 +263,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D21EAB5225CA2CB4001733EF /* Build configuration list for PBXNativeTarget "2021Swift" */;
 			buildPhases = (
+				F1406E88DEFBEBB7D64B97EF /* [CP] Check Pods Manifest.lock */,
 				D21EAB3A25CA2CB3001733EF /* Sources */,
 				D21EAB3B25CA2CB3001733EF /* Frameworks */,
 				D21EAB3C25CA2CB3001733EF /* Resources */,
+				85E76D144C51CC7125729215 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,6 +289,7 @@
 				TargetAttributes = {
 					D21EAB3D25CA2CB3001733EF = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -250,18 +324,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		85E76D144C51CC7125729215 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-2021Swift/Pods-2021Swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-2021Swift/Pods-2021Swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-2021Swift/Pods-2021Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1406E88DEFBEBB7D64B97EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-2021Swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D21EAB3A25CA2CB3001733EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D21EAB8225CA3CAC001733EF /* BaseTabBarController.swift in Sources */,
+				D2CB305C25CBC9BB002FCA29 /* BaseCollectionViewCell.swift in Sources */,
 				D21EAB4625CA2CB3001733EF /* ViewController.swift in Sources */,
 				D21EAB9C25CA3F41001733EF /* BaseTabBar.swift in Sources */,
+				D2CB307E25CBDFEE002FCA29 /* HomeCollectionReusableView.swift in Sources */,
 				D21EAB4225CA2CB3001733EF /* AppDelegate.swift in Sources */,
+				D2CB306525CBD6C5002FCA29 /* HomeCollectionViewCell.swift in Sources */,
 				D21EAB9325CA3E64001733EF /* MineViewController.swift in Sources */,
+				D28FEF3F25CCD66C00BB05D5 /* HomeSectionOneCollectionReusableView.swift in Sources */,
 				D21EAB8525CA3CC9001733EF /* BaseNavigationController.swift in Sources */,
+				D2CB306825CBDA0C002FCA29 /* Global.swift in Sources */,
+				D2CB306C25CBDF7B002FCA29 /* BaseCollectionReusableView.swift in Sources */,
 				D29B15D125CA8BE2000B409C /* UIColorExtension.swift in Sources */,
+				D28FF03225CD13DA00BB05D5 /* IntExtension.swift in Sources */,
 				D21EAB9625CA3E6B001733EF /* VoiceViewController.swift in Sources */,
 				D21EAB4425CA2CB3001733EF /* SceneDelegate.swift in Sources */,
 				D21EABA325CA4177001733EF /* UIBarButtonItemExtension.swift in Sources */,
@@ -411,9 +534,11 @@
 		};
 		D21EAB5325CA2CB4001733EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EAE23CE4669C9FF3C6CE80F /* Pods-2021Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RS8S42PTY6;
@@ -426,6 +551,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cld.2021Swift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "2021Swift/2021Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -433,9 +560,11 @@
 		};
 		D21EAB5425CA2CB4001733EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43E54BD13686B3EB0CC25885 /* Pods-2021Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RS8S42PTY6;
@@ -448,6 +577,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cld.2021Swift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "2021Swift/2021Swift-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

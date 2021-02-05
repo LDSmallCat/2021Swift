@@ -6,6 +6,37 @@
 //
 
 import UIKit
+
+extension UIColor {
+    class var background: UIColor {
+        
+        return UIColor(r: 242, g: 242, b: 242)
+    }
+    
+    class var theme: UIColor {
+        return UIColor(r: 29, g: 221, b: 43)
+    }
+    
+    class var textBlackColor: UIColor {
+        return UIColor.hex(hexString: "222222")
+    }
+    
+    class var textPlaceHolderColor: UIColor {
+        //return UIColor.placeholderText
+        return UIColor.hex(hexString: "AAAAAA")
+    }
+    
+    class var backWhiteColor: UIColor {
+        return UIColor.hex(hexString: "FFFFFF")
+    }
+    
+    class var lineColor: UIColor {
+        return UIColor.separator
+        
+        //return UIColor.hex(hexString: "DDDDDD")
+    }
+}
+
 extension UIColor{
     convenience init(r:UInt64 ,g:UInt64 , b:UInt64 , a:CGFloat = 1.0) {
             self.init(red: CGFloat(r) / 255.0,
