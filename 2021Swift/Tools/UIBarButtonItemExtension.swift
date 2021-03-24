@@ -22,10 +22,9 @@ extension UIBarButtonItem {
         button.addTarget(target, action: action, for: .touchUpInside)
         button.sizeToFit()
         
-        if button.bounds.width < 40 || button.bounds.height > 40 {
-            let width = 40 / button.bounds.height * button.bounds.width
-            button.bounds = CGRect(x: 0, y: 0, width: width, height: 40)
-            
+        if button.bounds.width < 44 || button.bounds.height > 44 {
+            let width = 44 / button.bounds.height * button.bounds.width
+            button.bounds = CGRect(x: 0, y: 0, width: width, height: 44)
         }
         self.init(customView: button)
     }

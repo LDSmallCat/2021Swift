@@ -24,7 +24,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.rootViewController = BaseTabBarController()
         window?.backgroundColor = UIColor.white
         window?.makeKeyAndVisible()
-        print("UIScreen.main.bounds" + "\(UIScreen.main.bounds)")
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

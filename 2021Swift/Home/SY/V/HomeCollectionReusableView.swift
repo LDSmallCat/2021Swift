@@ -56,7 +56,12 @@ class HomeCollectionReusableView: BaseCollectionReusableView {
             iv.frame = CGRect(x: x, y: y, width: w_h, height: w_h)
             //iv.backgroundColor = UIColor.random
             iv.image = UIImage(named: imageArray[index])
+            iv.isUserInteractionEnabled = true
+            iv.tag = 10 + index
+            let tap = UITapGestureRecognizer(target: self, action: #selector(imageViewClick(tap:)))
+            iv.addGestureRecognizer(tap)
             backView.addSubview(iv)
+            
             
             let lb = UILabel()
             lb.font = UIFont.systemFont(ofSize: 13)
@@ -103,5 +108,18 @@ class HomeCollectionReusableView: BaseCollectionReusableView {
 extension HomeCollectionReusableView {
     func didSelectBanner(index: Int) {
        print("点击index = " + "\(index)")
+    }
+    
+    @objc func imageViewClick(tap: UITapGestureRecognizer) {
+        guard let im = tap.view as? UIImageView else { return }
+        switch im.tag - 10 {
+        case 0:
+            let vc = HSJCViewController()
+            self.navgationController?.pushViewController(vc, animated: true)
+//        case 1:
+//        case 2:
+//        case 3:
+        default:break
+        }
     }
 }

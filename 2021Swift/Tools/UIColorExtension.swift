@@ -31,9 +31,7 @@ extension UIColor {
     }
     
     class var lineColor: UIColor {
-        return UIColor.separator
-        
-        //return UIColor.hex(hexString: "DDDDDD")
+        return UIColor.hex(hexString: "DDDDDD")
     }
 }
 

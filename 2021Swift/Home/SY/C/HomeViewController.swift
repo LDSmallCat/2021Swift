@@ -31,11 +31,10 @@ class HomeViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+     
     }
     
     override func configUI() {
-        
         
         view.addSubview(collectionView)
     }
@@ -66,7 +65,9 @@ extension HomeViewController : UICollectionViewDataSource{
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView{
         if kind == UICollectionView.elementKindSectionHeader{
             if indexPath.section == 0 {
-                return collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: "HomeCollectionReusableView", for: indexPath)
+                let banner = collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: "HomeCollectionReusableView", for: indexPath) as! HomeCollectionReusableView
+                banner.navgationController = self.navigationController
+                return banner
             }else{
                 
                 return collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: "HomeSectionOneCollectionReusableView", for: indexPath)
