@@ -32,7 +32,7 @@ PODS:
   - HMSegmentedControl (1.5.6)
   - IQKeyboardManagerSwift (6.5.6)
   - KakaJSON (1.1.2)
-  - Kingfisher (6.1.0)
+  - Kingfisher (6.2.1)
   - LLCycleScrollView (1.6.0):
     - Kingfisher
   - Masonry (1.1.0)
@@ -63,8 +63,6 @@ PODS:
   - YBImageBrowser/Core (3.0.9):
     - SDWebImage (>= 5.0.0)
     - YYImage
-  - YBImageBrowser/Video (3.0.9):
-    - YBImageBrowser/Core
   - YYImage (1.0.4):
     - YYImage/Core (= 1.0.4)
   - YYImage/Core (1.0.4)
@@ -73,7 +71,7 @@ DEPENDENCIES:
   - AFNetworking
   - Alamofire
   - BRPickerView
-  - EmptyDataSet-Swift
+  - EmptyDataSet-Swift (~> 5.0.0)
   - HandyJSON
   - HMSegmentedControl
   - IQKeyboardManagerSwift
@@ -94,7 +92,7 @@ DEPENDENCIES:
   - TZImagePickerController
   - UINavigation-SXFixSpace
   - YBImageBrowser
-  - YBImageBrowser/Video
+  - YYImage
 
 SPEC REPOS:
   trunk:
@@ -133,7 +131,7 @@ SPEC CHECKSUMS:
   HMSegmentedControl: 34c1f54d822d8308e7b24f5d901ec674dfa31352
   IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
   KakaJSON: cc5ff50a8c1cfbb09413db8496cb709a209e6137
-  Kingfisher: f5d8d60a0ef3edd642fd781bae60918599901aff
+  Kingfisher: e71c6fac2aebb1262888cabc2cb13d313362a48f
   LLCycleScrollView: a08f666671f9fd1a205df9defebc3c217d59abc8
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
@@ -151,6 +149,6 @@ SPEC CHECKSUMS:
   YBImageBrowser: 7ecc8bf33ffa5f3b94c397c29b4f3638dd37f527
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
 
-PODFILE CHECKSUM: a3426dc9e36e18864808755b4dec525645fe1ff1
+PODFILE CHECKSUM: b8c13fe32cf492cc196f2c18001ea103c4f7a7cf
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.1
