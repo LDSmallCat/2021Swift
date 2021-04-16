@@ -9,9 +9,6 @@ let screenWidth = UIScreen.main.bounds.width
 let screenHeight = UIScreen.main.bounds.height
 let defaultCellHeight: CGFloat = 80
 
-//let navgationBarHeight: CGFloat = 44.0
-//let statusBarHeight: CGFloat = isIphoneX ? 44.0 : 20.0
-//let tabBarHeight: CGFloat = 49 + UIWindow().safeAreaInsets.bottom
 //MARK: - 宽度比例缩放
 /// 宽度比例缩放
 /// - Parameters:

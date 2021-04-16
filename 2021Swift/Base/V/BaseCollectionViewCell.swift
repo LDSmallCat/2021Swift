@@ -8,7 +8,7 @@
 import UIKit
 
 class BaseCollectionViewCell: UICollectionViewCell {
-    var navgationController: UINavigationController?
+    weak var navgationController: UINavigationController?
     
     lazy var backView: UIView = {
         let back = UIView()
@@ -57,5 +57,9 @@ class BaseCollectionViewCell: UICollectionViewCell {
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    deinit {
+        debugPrint(self.className + "销毁")
     }
 }

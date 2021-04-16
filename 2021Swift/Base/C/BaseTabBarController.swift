@@ -21,7 +21,9 @@ class BaseTabBarController: UITabBarController {
         addChilds()
     }
     
-    
+    deinit {
+        debugPrint(self.className + "销毁")
+    }
 }
 extension BaseTabBarController {
     

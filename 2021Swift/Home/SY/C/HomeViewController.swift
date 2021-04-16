@@ -45,6 +45,9 @@ class HomeViewController: BaseViewController {
         }
     }
     
+//    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+//        User.logOut()
+//    }
 }
 
 extension HomeViewController : UICollectionViewDataSource{
@@ -114,4 +117,15 @@ extension HomeViewController : UICollectionViewDelegateFlowLayout{
      func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForFooterInSection section: Int) -> CGSize {
         return CGSize(width: screenWidth, height: CGFloat.leastNonzeroMagnitude);
     }
+}
+
+extension HomeViewController: UICollectionViewDelegate{
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        User.logOut()
+
+
+    }
+    
 }

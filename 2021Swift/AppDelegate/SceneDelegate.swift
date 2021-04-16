@@ -21,9 +21,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                 
         window = UIWindow.init(windowScene: scene)
         window?.frame = UIScreen.main.bounds
-        window?.rootViewController = BaseTabBarController()
         window?.backgroundColor = UIColor.white
         window?.makeKeyAndVisible()
+        
+        window?.rootViewController = root()
+        
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -57,3 +59,14 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 }
 
+extension SceneDelegate {
+    func root() -> UIViewController {
+        User.shared = User.readFromLocal()
+        if User.shared.isLogin {
+            return BaseTabBarController()
+        }else{
+            return LoginViewController()
+        }
+        
+    }
+}

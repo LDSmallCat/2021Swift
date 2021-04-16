@@ -15,8 +15,14 @@ class BaseViewController: UIViewController {
         configUI()
         configLayout()
     }
+    deinit {
+        debugPrint(self.className + "销毁")
+    }
 }
-
+//MARK: 网络请求
+extension BaseViewController {
+    @objc func loadData() { }
+}
 //MARK: 添加子视图，子视图 布局
 extension BaseViewController {
     @objc func configUI() { }

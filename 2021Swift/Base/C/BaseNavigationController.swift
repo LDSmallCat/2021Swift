@@ -39,5 +39,7 @@ class BaseNavigationController: UINavigationController {
         
         super.pushViewController(viewController, animated: animated)
     }
-
+    deinit {
+        debugPrint(self.className + "销毁")
+    }
 }

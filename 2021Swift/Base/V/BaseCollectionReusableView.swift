@@ -8,7 +8,7 @@
 import UIKit
 
 class BaseCollectionReusableView: UICollectionReusableView {
-    var navgationController: UINavigationController?
+    weak var navgationController: UINavigationController?
     
     lazy var line: UIView = {
         let line = UIView()
@@ -37,5 +37,8 @@ class BaseCollectionReusableView: UICollectionReusableView {
             $0.left.right.bottom.equalToSuperview()
             $0.height.equalTo(0.5)
         }
+    }
+    deinit {
+        debugPrint(self.className + "销毁")
     }
 }

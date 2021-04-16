@@ -29,4 +29,7 @@ class BaseTabBar: UITabBar {
         }
     }
 
+    deinit {
+        debugPrint(self.className + "销毁")
+    }
 }
