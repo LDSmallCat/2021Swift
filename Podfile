@@ -9,7 +9,7 @@ target '2021Swift' do
 pod 'Alamofire'#, '~> 5.4.1'
 pod 'AFNetworking'#, '~> 4.0.1'
 pod 'Moya'#, '~> 14.0.0'
-
+pod 'CryptoSwift'#, '~> 1.3.8'
 
 pod 'HandyJSON'#, '~> 5.0.2'
 pod 'KakaJSON'#, '~> 1.1.2'
@@ -40,6 +40,6 @@ pod 'YBImageBrowser'
 pod 'YYImage'
 pod 'BRPickerView'
 
-
+pod 'FCUUID'
 
 end
